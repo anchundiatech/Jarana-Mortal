@@ -15,10 +15,10 @@ use soroban_sdk::{contract, contractimpl, symbol_short, Env, String, Symbol};
 // ═══════════════════════════════════════════════════════════════════════════
 
 /// Nombre que se verá en la pantalla gigante (máximo 24 caracteres).
-const NAME: &str = "El Cajonero";
+const NAME: &str = "El Carnicero";
 
 /// Tu bando: symbol_short!("JARANA") o symbol_short!("TERROR").
-const TEAM: Symbol = symbol_short!("JARANA");
+const TEAM: Symbol = symbol_short!("TERROR");
 
 /// Reparte máximo 100 puntos. Cada atributo necesita al menos 5.
 /// HP      → tu vida real será HP × 3
